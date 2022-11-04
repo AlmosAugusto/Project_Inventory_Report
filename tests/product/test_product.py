@@ -9,7 +9,7 @@ def test_cria_produto():
         '01/01/2020',
         '01/01/2023',
         '123456789',
-        'Frágil'
+        'Com cuidado'
     )
 
     assert mock.id == 17
@@ -18,4 +18,4 @@ def test_cria_produto():
     assert mock.data_de_fabricacao == '01/01/2020'
     assert mock.data_de_validade == '01/01/2023'
     assert mock.numero_de_serie == '123456789'
-    assert mock.instrucoes_de_armazenamento == 'Frágil'
+    assert mock.instrucoes_de_armazenamento == 'Com cuidado'
