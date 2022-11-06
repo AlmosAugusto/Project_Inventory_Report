@@ -21,11 +21,11 @@ class SimpleReport:
 
     @classmethod
     def get_company_with_more_products(cls, list):
-        company = Counter(
-          empresa["nome_da_empresa"] for empresa in list).most_common()
+        companies = Counter(
+          company["nome_da_empresa"] for company in list).most_common()
         # print(company[0][0], line 26)
 
-        return company[0][0]
+        return companies[0][0]
 
     @classmethod
     def generate(cls, list):
