@@ -8,4 +8,5 @@ flake8==4.0.1
 pytest==7.0.1
 pytest-cov==2.10.1
 pytest-json==0.4.0
+xmltodict==0.13.0 # adicionado conforme a tread do slack sobre erro ao passar no git hub
 git+https://github.com/betrybe/pytest-dependency
